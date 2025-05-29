@@ -13,7 +13,7 @@ const Appeal = sequelize.define(
       allowNull: false,
     },
     status: {
-      type: DataTypes.ENUM("Новое", "В работеВ работе", "Завершено", "Отменено"),
+      type: DataTypes.ENUM("Новое", "В работе", "Завершено", "Отменено"),
       defaultValue: "Новое",
     },
     solution_text: {
